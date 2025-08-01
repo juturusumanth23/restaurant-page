@@ -1,5 +1,15 @@
 /* styles.css */
-body {
-
-  font-size: 2rem;
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+nav>button {
+    padding: 8px 24px;
+    font-size: 1.5rem;
+}
+div#content {
+    width: 900px;
+    margin: auto;
+    padding: 24px 24px;
 }

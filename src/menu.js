@@ -1,8 +1,8 @@
-// greeting.js
+import {content} from "./index.js";
 import odinImage from "./odin.png";
-import { content } from "./index.js"
-export const homepage = ()=> {
-    document.querySelector("body").style.backgroundColor = "orange";
+
+export const menu = ()=> {
+    document.querySelector("body").style.backgroundColor = "lightgreen";
     const image = document.createElement("img");
     const h1 = document.createElement("h1");
     const para = document.createElement("p");
