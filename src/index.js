@@ -1,7 +1,7 @@
 // src/index.js
 import "./styles.css";
-import { greeting } from "./greeting.js";
-import { Homepage } from "./greeting.js";
+import { greeting } from "./homepage.js";
+import { Homepage } from "./homepage.js";
 
 console.log(greeting);
 Homepage();

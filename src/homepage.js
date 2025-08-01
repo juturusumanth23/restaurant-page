@@ -13,4 +13,4 @@ export const Homepage = ()=>{
     image.src = odinImage;
     image.alt = "Odin Logo";
     content.append(image, h1, para);
-}
+};
